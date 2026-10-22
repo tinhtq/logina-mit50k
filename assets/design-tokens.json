@@ -1,0 +1,44 @@
+{
+  "project": "LOGINA — Demo Waitlist Landing Page",
+  "version": "concept-1.0",
+  "language": "vi",
+  "colors": {
+    "surface.base": "#F8F8F5",
+    "surface.white": "#FFFFFF",
+    "surface.lavender": "#EEECFF",
+    "surface.lightPurple": "#F0EDFF",
+    "surface.mint": "#E5F7EC",
+    "ink.primary": "#181B34",
+    "ink.secondary": "#737888",
+    "ink.onDark": "#FFFFFF",
+    "primary.default": "#695AE8",
+    "primary.light": "#8176F5",
+    "border.default": "#E8E8EE",
+    "surface.dark": "#20233B"
+  },
+  "typography": {
+    "family": "Inter",
+    "body.desktop": {"fontSize": 16, "lineHeight": 28},
+    "body.mobile": {"fontSize": 12, "lineHeight": 22},
+    "hero.desktop": {"fontSize": 70, "lineHeight": 73, "weight": 700},
+    "hero.mobile": {"fontSize": 43, "lineHeight": 49, "weight": 700},
+    "section.desktop": {"fontSize": 50, "lineHeight": 57, "weight": 700},
+    "section.mobile": {"fontSize": 35, "lineHeight": 41, "weight": 700},
+    "label": {"fontSize": 11, "weight": 700}
+  },
+  "layout": {
+    "breakpoints": {"mobile": 470,"tablet": 820,"desktop": 1120},
+    "desktop.frameWidth": 1440,
+    "mobile.frameWidth": 390,
+    "desktop.contentMaxWidth": 1200,
+    "cardRadius": 20,
+    "inputRadius": 10,
+    "buttonRadius": 12
+  },
+  "components": ["Navbar","Hero","Learner preview card","Five-step journey","Human-first section","Audience cards","Waitlist form","FAQ","Footer"],
+  "copy": {
+    "headline": "Đừng chỉ nhìn đáp án. Hãy thấy cách học sinh nghĩ.",
+    "ctaPrimary": "Tham gia danh sách chờ",
+    "ctaSecondary": "Khám phá LOGINA"
+  }
+}

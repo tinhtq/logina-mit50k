@@ -1,0 +1,20 @@
+name = "logina-waitlist"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# Non-secret variables. Set your real values here (or in the dashboard).
+# ALLOWED_ORIGIN should be your live site origin. Use "*" only while testing.
+[vars]
+ALLOWED_ORIGIN = "*"
+
+# Secrets are NOT stored here. Set them with:
+#   npx wrangler secret put APPS_SCRIPT_URL
+#   npx wrangler secret put SHARED_SECRET
+#   npx wrangler secret put TURNSTILE_SECRET   # optional
+#
+# Optional: strict rate limiting via KV. Uncomment, create the namespace with
+#   npx wrangler kv namespace create RATE_LIMIT
+# then paste the returned id below and extend worker.js to use it.
+# [[kv_namespaces]]
+# binding = "RATE_LIMIT"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"

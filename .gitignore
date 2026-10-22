@@ -1,0 +1,8 @@
+MIT50K - LOGINA/
+MIT50K - LOGINA-20261021T122803Z-1-001.zip
+_design_src/
+.DS_Store
+
+# Private setup/deploy guide — keep out of the public repo
+DEPLOY.md
+cloudflare-worker/README.md
