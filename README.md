@@ -25,12 +25,3 @@ No build step, no dependencies. Open `index.html` in a browser, or run a static 
 python3 -m http.server 8000
 # open http://localhost:8000
 ```
-
-## Design
-
-Based on the Figma set `logina_waitlist_landing_v1`. Design tokens live in `assets/design-tokens.json`.
-Font **Inter** (Google Fonts). Primary `#695AE8`, background `#F8F8F5`, heading `#181B34`.
-
-## Deployment
-
-Setup and deployment steps are documented separately (not committed to this repo).
